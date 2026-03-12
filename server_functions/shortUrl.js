@@ -20,9 +20,13 @@ export default async function ShortUrl({ url, ali }) {
   if (!user) return;
   await connectToDb();
   try {
-    const getUserLimit = await User.findOne({
+    let getUserLimit = await User.findOne({
       email: user.emailAddresses[0].emailAddress,
     });
+    if (!getUserLimit) {
+      getUserLimit = new User({ email: user.emailAddresses[0].emailAddress });
+      await getUserLimit.save();
+    }
     if (getUserLimit.url_limit === 0)
       return JSON.stringify({
         message: "You have reached your limit. Please try again next month.",

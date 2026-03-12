@@ -9,7 +9,7 @@ export default function Header() {
     <header className="flex items-center justify-between px-6 py-5 max-w-6xl mx-auto">
       <div className="flex items-center gap-2 bg-secondary/80 px-2.5 py-0.5 border border-input rounded-md">
         <Link2 className="h-4 w-4" />
-        <span className="text-lg">u-sh</span>
+        <span className="text-lg">URL Shortener</span>
       </div>
       <div className="flex items-center gap-3">
         <IfLoggedInElse

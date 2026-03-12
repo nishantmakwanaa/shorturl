@@ -81,7 +81,7 @@ export default function ShortUrlForm() {
       />
       <Label htmlFor="alias">
         Alias <span className="text-xs text-muted-foreground">(optional)</span>
-        <span className="text-blue-400">*</span>
+        <span className="text-emerald-500">*</span>
       </Label>
       <Input
         maxLength={10}
@@ -95,7 +95,7 @@ export default function ShortUrlForm() {
         <Label htmlFor="qrcode">
           Also generate qr code{" "}
           <span className="text-xs text-muted-foreground">(optional)</span>
-          <span className="text-blue-400">*</span>
+          <span className="text-emerald-500">*</span>
         </Label>
       </div>
       <Button type="submit" variant="shine" className="mt-3" disabled={loading}>

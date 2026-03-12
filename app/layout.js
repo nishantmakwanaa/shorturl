@@ -12,8 +12,11 @@ const inter = Bricolage_Grotesque({
 });
 
 export const metadata = {
-    title: "URL Shortner",
-    description: "Open-Source url shortener built with nextjs & mongodb, track your link's clicks, free for lifetime!",
+    title: "URL Shortener | Nishant Makwana",
+    description: "URL Shortener built with Next.js & MongoDB — shorten, track, and analyze your links for free, forever!",
+    icons: {
+        icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔗</text></svg>",
+    },
 };
 
 export default function RootLayout({ children }) {
@@ -22,7 +25,7 @@ export default function RootLayout({ children }) {
             <html lang="en">
                 <body className={inter.className}>
                     <NextTopLoader
-                        color="#60a5fa"
+                        color="#10b981"
                         initialPosition={0.08}
                         crawlSpeed={200}
                         height={3}
@@ -30,7 +33,7 @@ export default function RootLayout({ children }) {
                         showSpinner={false}
                         easing="ease"
                         speed={200}
-                        shadow="0 0 10px #60a5fa,0 0 5px #60a5fa"
+                        shadow="0 0 10px #10b981,0 0 5px #10b981"
                         template='<div class="bar" role="bar"><div class="peg"></div></div> 
   <div class="spinner" role="spinner"><div class="spinner-icon"></div></div>'
                         zIndex={160000}

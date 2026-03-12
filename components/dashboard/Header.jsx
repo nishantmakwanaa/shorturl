@@ -18,8 +18,8 @@ import { ModeToggle } from "../modetoggle";
 export default function Header() {
   const [pathName, setPathName] = useState("");
   const defaultClass =
-    "transition h-10 rounded-l-lg border-r-2 border-transparent hover:border-blue-400 text-center hover:bg-accent/40 grid place-content-center text-base";
-  const activeClass = "border-r-2 border-blue-400 bg-accent/40";
+    "transition h-10 rounded-l-lg border-r-2 border-transparent hover:border-emerald-500 text-center hover:bg-accent/40 grid place-content-center text-base";
+  const activeClass = "border-r-2 border-emerald-500 bg-accent/40";
   const getPageUrl = () => {
     setPathName(window.location.pathname);
     return true;
@@ -94,10 +94,13 @@ export default function Header() {
           <SheetFooter>
             <SheetDescription className="mt-10 grid gap-7 w-full">
               {/* <div className="flex items-center justify-between">
-                                <Link href="https://github.com/r2hu1/url-shortner">Github Repo</Link>
-                                <Link href="mailto:hi@rahul.eu.org">Hire Me</Link>
-                                <Link href="https://rahul.eu.org">My Portfolio</Link>
+                                <Link href="https://github.com/nishantmakwanaa">GitHub</Link>
+                                <Link href="https://linkedin.com/in/nishantmakwanaa">LinkedIn</Link>
+                                <Link href="https://nishantmakwanaa.lovable.app">Portfolio</Link>
                             </div> */}
+              <div className="flex items-center justify-center">
+                <Link href="https://github.com/nishantmakwanaa/shorturl" className="text-sm underline underline-offset-4">View on GitHub</Link>
+              </div>
               <div className="flex items-center justify-between gap-3">
                 <div className="grid !gap-0.5">
                   <div className="border rounded-lg overflow-hidden">

@@ -1,6 +1,8 @@
-# U-SH (url shortner)
+# URL Shortener
 
-A powerful URL shortening service built with modern technologies including Next.js, MongoDB, Shadcn/UI, and Clerk for authentication. The project features a user dashboard for managing links and comprehensive analytics.
+A powerful URL shortening service built with modern technologies including Next.js, MongoDB, Shadcn/UI, and Clerk for authentication. Features a user dashboard for managing links and comprehensive analytics.
+
+Created by [Nishant Makwana](https://github.com/nishantmakwanaa)
 
 ![preview](/public/preview.png)
 
@@ -30,8 +32,8 @@ Ensure you have the following installed:
 2. Clone the repository:
 
    ```bash
-   git clone https://github.com/[username]/u-sh.git
-   cd u-sh
+   git clone https://github.com/nishantmakwanaa/shorturl.git
+   cd shorturl
    ```
 
 2. Install dependencies:

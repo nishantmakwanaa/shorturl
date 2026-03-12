@@ -29,7 +29,7 @@ export default function Pricing() {
     return (
         <section className="px-6 md:px-20 lg:px-32 mt-24 mb-24">
             <div className="grid gap-2">
-                <h3 className="text-3xl font-medium lg:text-5xl sm:text-center">Pricing <span className=" underline underline-offset-[5px] decoration-blue-400">&</span> Plans</h3>
+                <h3 className="text-3xl font-medium lg:text-5xl sm:text-center">Pricing <span className=" underline underline-offset-[5px] decoration-emerald-500">&</span> Plans</h3>
                 <p className="text-muted-foreground mx-auto md:text-lg text-base sm:text-base sm:text-center max-w-md">There is no need of any subscription. You can use it for free. But you can donote me if you want.</p>
             </div>
             <div className="mt-7 grid sm:grid-cols-2 gap-3 sm:place-content-center sm:w-fit sm:mx-auto">
@@ -45,7 +45,7 @@ export default function Pricing() {
                                     key={index}
                                     className="mb-1 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
                                 >
-                                    <span className="flex h-2 w-2 translate-y-1 rounded-full bg-blue-400" />
+                                    <span className="flex h-2 w-2 translate-y-1 rounded-full bg-emerald-500" />
                                     <div className="space-y-1">
                                         <p className="text-sm leading-none">
                                             {notification.title}
@@ -81,7 +81,7 @@ export default function Pricing() {
                             <div
                                 className="mb-1 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
                             >
-                                <span className="flex h-2 w-2 translate-y-1 rounded-full bg-blue-400" />
+                                <span className="flex h-2 w-2 translate-y-1 rounded-full bg-emerald-500" />
                                 <div className="space-y-1">
                                     <p className="text-sm leading-none">
                                         personal response
@@ -96,7 +96,7 @@ export default function Pricing() {
                             <div
                                 className="mb-1 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
                             >
-                                <span className="flex h-2 w-2 translate-y-1 rounded-full bg-blue-400" />
+                                <span className="flex h-2 w-2 translate-y-1 rounded-full bg-emerald-500" />
                                 <div className="space-y-1">
                                     <p className="text-sm leading-none">
                                         help in your projects
@@ -111,7 +111,7 @@ export default function Pricing() {
                             <div
                                 className="mb-1 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
                             >
-                                <span className="flex h-2 w-2 translate-y-1 rounded-full bg-blue-400" />
+                                <span className="flex h-2 w-2 translate-y-1 rounded-full bg-emerald-500" />
                                 <div className="space-y-1">
                                     <p className="text-sm leading-none">
                                         initial reviewer
@@ -124,7 +124,7 @@ export default function Pricing() {
                         </div>
                     </CardContent>
                     <CardFooter>
-                         <Link href="https://github.com/sponsors/r2hu1" className={cn(buttonVariants({ variant: "default" }), "w-full")}>
+                         <Link href="https://github.com/nishantmakwanaa" className={cn(buttonVariants({ variant: "default" }), "w-full")}>
                             Get Started
                          </Link>
                     </CardFooter>

@@ -219,7 +219,7 @@ export default function page() {
                                         <span className="text-muted-foreground text-xs">
                                           (readonly)
                                         </span>
-                                        <span className="text-blue-400">*</span>
+                                        <span className="text-emerald-500">*</span>
                                       </Label>
                                       <Input
                                         id="id"

@@ -9,28 +9,28 @@ export default function Hero() {
     <section className="py-20 sm:mt-5 px-6 max-w-6xl mx-auto">
       <div className="grid gap-6 max-w-5xl mx-auto text-center place-items-center">
         <h1 className="font-semibold text-4xl md:text-5xl !leading-tight lg:text-6xl">
-          Open-Source url shortener built with{" "}
-          <span className="underline underline-offset-[5px] decoration-blue-400">
-            nextjs
+          Shorten, share &{" "}
+          <span className="underline underline-offset-[5px] decoration-emerald-500">
+            track
           </span>{" "}
-          &{" "}
-          <span className="underline underline-offset-[5px] decoration-blue-400">
-            mongodb
+          your links with{" "}
+          <span className="underline underline-offset-[5px] decoration-emerald-500">
+            ease
           </span>
         </h1>
         <p className="text-foreground/80 mt-2 md:text-xl text-base max-w-2xl">
-          I have coded this url shortner using nextjs 14, shadcn/ui & mongodb
-          client mongoose with detailed analytics of links being clicked!
+          A powerful URL Shortener with detailed analytics — track clicks,
+          devices, locations & more. Free forever.
         </p>
         <div className="flex items-center sm:justify-center flex-wrap gap-3 mt-3">
           <Link
-            href="https://github.com/r2hu1/u-sh"
+            href="https://github.com/nishantmakwanaa"
             className={cn(
               buttonVariants({ variant: "outline" }),
               "flex items-center gap-1",
             )}
           >
-            Star on Github
+            View on GitHub
             <Star className="h-3.5 w-3.5" />
           </Link>
           <IfLoggedInElse
